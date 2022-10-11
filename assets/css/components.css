@@ -1,20 +1,34 @@
-/* .block {
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-  border: 10px solid #f88;
-  margin: 30px;
-} */
+.box-1 {
+  /* box-sizing: border-box; */
+  width: 300px;
+  height: 300px;
+  background-color: #c7d47e;
+  /* padding: 25px; */
+  padding: 25px 15px;
 
-main {
-  width: 75%;
-  height: 75%;
-  background-color: #888;
+  border: 10px double #6c7c11;
+  margin: 0px 0px 20px 0px;
 }
 
-.container {
-  width: 50%;
-  height: 50%;
-  background-color: #884590;
-  border: 4px solid #fff;
+.box-2 {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  background-color: #123;
+  padding: 35px 25px;
+
+  margin: 0px 0px 20px 0px;
+}
+
+h1 {
+  background-color: #c7d47e;
+  color: #fff;
+}
+
+a {
+  display: inline;
+  background-color: #123;
+  color: #fff;
+  width: 500px;
+  height: 100px;
 }
